@@ -1,0 +1,52 @@
+legend {
+  font-size: 18px;
+  border: 1px solid;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2px;
+  margin-left: 10%;
+  color: black;
+  background-color: white;
+}
+
+fieldset {
+  max-width: 360px;
+  max-height: 500px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.firstName {
+  display: flex;
+  flex-direction: column;
+}
+
+.lastName {
+  display: flex;
+  flex-direction: column;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.comments {
+  text-align: left;
+  padding-top: 10px;
+}
+
+button {
+  margin-top: 10px;
+}
