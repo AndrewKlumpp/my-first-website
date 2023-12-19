@@ -1,3 +1,37 @@
+#nav {
+  background-color: orangered;
+  position: relative;
+  width: 100%;
+}
+
+#nav h1 {
+  display: inline-block;
+  margin-left: 20px;
+  padding: 2px;
+  color: white;
+}
+
+#nav ul {
+  display: inline-block;
+}
+
+#nav ul li {
+  display: inline-block;
+  height: 25px;
+  color: white;
+  padding: 15px;
+  padding-top: 20px;
+}
+
+#nav ul li:hover {
+  background-color: white;
+  color: orangered;
+}
+
+#nav ul a {
+  text-decoration-style: none;
+}
+
 legend {
   font-size: 18px;
   border: 1px solid;
